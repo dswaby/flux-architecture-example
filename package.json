@@ -1,0 +1,30 @@
+{
+  "name": "flux-architecture",
+  "version": "1.0.0",
+  "description": "learning flux architecture",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dswaby/flux-architecture-example.git"
+  },
+  "author": "Danny Swaby",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dswaby/flux-architecture-example/issues"
+  },
+  "homepage": "https://github.com/dswaby/flux-architecture-example#readme",
+  "dependencies": {
+    "flux": "^2.1.1",
+    "react": "^0.14.7",
+    "react-dom": "^0.14.7",
+    "react-router": "^2.0.0"
+  },
+  "devDependencies": {
+    "babel-loader": "^6.2.3",
+    "babel-preset-es2015": "^6.5.0",
+    "babel-preset-react": "^6.5.0"
+  }
+}
