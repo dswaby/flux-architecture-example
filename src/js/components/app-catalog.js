@@ -3,7 +3,7 @@ import AppStore from '../stores/app-store'
 import CatalogItem from './app-catalog-item'
 
 function getCatalog(){
-	return { items: AppStore.getCatalog }
+	return { items: AppStore.getCatalog() }
 }
 
 class Catalog extends React.Component {

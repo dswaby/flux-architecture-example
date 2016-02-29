@@ -13,6 +13,7 @@ export default (props) => {
 				handler={
 					AppActions.addItem.bind( null, props.item )
 				}
+				txt="Add To Cart"
 				/>
 		</div>
 	)
